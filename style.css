@@ -1,0 +1,17 @@
+.itemContainer{
+    float:left;
+    margin:45px;
+    padding: %100;
+    width: 200px;
+    height: 200px;
+    background: #ff5555;
+    border-radius:50px;
+    border-color: red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    }
+.coc{
+    font-family: monospace;
+    font-size:16px;
+    color: blue;
+    text-align: center;
+}
