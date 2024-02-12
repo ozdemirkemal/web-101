@@ -7,11 +7,50 @@
     background: #ff5555;
     border-radius:50px;
     border-color: red;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
     }
-.coc{
-    font-family: monospace;
-    font-size:16px;
-    color: blue;
+.square {
+    float:left;
+    margin:45px;
+        background-color: #4C2447;
+        width: 200px;
+        height: 200px;
+        border-radius:50px;
+    border-color: red;
+    
+    
+      }    
+footer {
     text-align: center;
+    padding: 3px;
+    color: white;
+  }
+  body {
+    font-family: monospace;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4C2447;
+    color: #F4C430;
+    padding: 16px;
+}
+
+.column {
+    width: 40%;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
 }
